@@ -41,18 +41,18 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="index.html">Inicio</a></li>
-                                        <li><a href="Menu.html">Cardapio</a></li>
+                                        <li><a  href="index.html">Inicio</a></li>
+                                        <li><a class="active" href="Menu.html">Cardapio</a></li>
                                         <li><a href="about.html">Sobre</a></li>
-                                        <li><a href="#">Blog <i class="ti-angle-down"></i></a>
+                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="#">blog</a></li>
-                                                <li><a href="#">single-blog</a></li>
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Paginas <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="##">Elementos</a></li>
+                                                <li><a href="elements.html">Elementos</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="contact.html">Contato</a></li>
@@ -108,48 +108,16 @@
     </header>
     <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-xl-9 col-md-9 col-md-12">
-                            <div class="slider_text text-center">
-                                <div class="deal_text">
-                                    <span>Big Deal</span>
-                                </div>
-                                <h3>Burger <br>
-                                    Bachelor</h3>
-                                <h4>Maxican</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single_slider  d-flex align-items-center slider_bg_2 overlay">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-xl-9 col-md-9 col-md-12">
-                            <div class="slider_text text-center">
-                                <div class="deal_text">
-                                    <span>Big Deal</span>
-                                </div>
-                                <h3>Burger <br>
-                                    Bachelor</h3>
-                                <h4>Maxican</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- bradcam_area_start -->
+    <div class="bradcam_area breadcam_bg overlay">
+        <h3>Menu</h3>
     </div>
-    <!-- slider_area_end -->
+    <!-- bradcam_area_end -->
 
+    <!-- best_burgers_area_start  -->
     <div class="best_burgers_area">
         <div class="container">
-                 <div class="row">
+            <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center mb-80">
                         <span>Burger Menu</span>
@@ -167,7 +135,33 @@
                             <h3>Beefy Burgers</h3>
                             <p>Suculento hambúrguer de ervilha com sabor e textura de frango. Não possui derivados de ovo e leite.</p>
                             <span>R$10.00</span>
-				
+						<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Beefy Burgers">  
+        <input name="itemAmount1" type="hidden" value="10.00">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
 							<!-- Declaração do formulário -->  
                         </div>
                     </div>
@@ -178,10 +172,36 @@
                             <img src="img/burger/2.png" alt="">
                         </div>
                         <div class="info">
-                            <h3>Burger Boys</h3>
+                             <h3>Burger Boys</h3>
                             <p>O Incrível Burger foi criado para surpreender. Um hambúrguer 100% vegetal, com incrível textura e sabor de carne. Feito com soja não transgênica, beterraba, alho e cebola, cada hambúrguer tem 27 g de proteína.</p>
                             <span>R$9.99</span>
-	
+														<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Burger Boys">  
+        <input name="itemAmount1" type="hidden" value="9.99">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
 						</div>
 
                     </div>
@@ -196,7 +216,34 @@
                             <h3>Burger Bizz</h3>
                             <p>Vegetariano! Mix de cogumelo Paris, Shimeji e Shitake.</p>
                             <span>R$15.00</span>
-               </div>
+																<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Burger Bizz">  
+        <input name="itemAmount1" type="hidden" value="15.00">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6 col-lg-6">
@@ -208,7 +255,33 @@
                             <h3>Crackles Burger</h3>
                             <p>Pão de brioche selado na manteiga, hambúrguer artesanal 100% carne bovina (100gr) e creme de cheddar.</p>
                             <span>R$12.00</span>
-	
+																	<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Crackles Burger">  
+        <input name="itemAmount1" type="hidden" value="12.00">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
                         </div>
                     </div>
                 </div>
@@ -222,7 +295,34 @@
                             <p>Pão de brioche selado na manteiga, hambúrguer artesanal 100% carne bovina (100gr) e creme de cheddar.</p>
                             <span>R$10.99</span>
 		
+		
+																<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Bull Burgers">  
+        <input name="itemAmount1" type="hidden" value="10.99">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
 
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
                         </div>
                     </div>
 
@@ -237,6 +337,33 @@
                             <p>Pão de brioche selado na manteiga, hambúrguer artesanal 100% carne bovina 100gr e molho especial.</p>
                             <span>R$9.99</span>
 	
+																<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Rocket Burgers">  
+        <input name="itemAmount1" type="hidden" value="9.99">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
                         </div>
                     </div>
                 </div>
@@ -250,6 +377,33 @@
                             <p>pão de brioche, hambúrguer artesanal 100% carne bovina (100gr), queijo cheddar, ovo, alface, tomate, cebola roxa, maionese e molho especial..</p>
                             <span>R$8.99</span>
 	
+															<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Smokin Burger">  
+        <input name="itemAmount1" type="hidden" value="8.99">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
                         </div>
                     </div>
                 </div>
@@ -259,10 +413,37 @@
                             <img src="img/burger/8.png" alt="">
                         </div>
                         <div class="info">
-                            <h3>Delish Burger</h3>
+                           <h3>Delish Burger</h3>
                             <p>pão de brioche, hambúrguer artesanal 100% carne bovina (100gr), queijo cheddar, salsicha, ovo, alface, tomate, cebola roxa, maionese, barbecue e molho especial..</p>
                             <span>R$5.99</span>
-							
+
+															<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Delish Burger">  
+        <input name="itemAmount1" type="hidden" value="5.99">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>								
                         </div>
                     </div>
                 </div>
@@ -275,7 +456,33 @@
                             <h3>Crackles Burger</h3>
                             <p>Pão de brioche, um hambúrguer artesanal 100% carne bovina (100gr), queijo cheddar e molho especial..</p>
                             <span>R$15.99</span>
-			
+														<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Crackles Burger">  
+        <input name="itemAmount1" type="hidden" value="15.99">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
+
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
                         </div>
                     </div>
                 </div>
@@ -285,30 +492,43 @@
                             <img src="img/burger/5.png" alt="">
                         </div>
                         <div class="info">
-                            <h3>Bull Burgers</h3>
+                             <h3>Bull Burgers</h3>
                             <p>É um sanduíche quente, preparado a base de presunto e mussarela, inseridos entre duas fatias de pão de forma.</p>
                             <span>R$7.80</span>
-		
-                        </div>
-						
-                    </div>
-					
-					
+											<div>
+						<!-- Declaração do formulário -->  
+<form method="post" target="pagseguro"  
+action="https://pagseguro.uol.com.br/v2/checkout/payment.html">  
+          
+        <!-- Campos obrigatórios -->  
+        <input name="receiverEmail" type="hidden" value="ronaldooracle@gmail.com">  
+        <input name="currency" type="hidden" value="BRL">  
+  
+        <!-- Itens do pagamento (ao menos um item é obrigatório) -->  
+        <input name="itemId1" type="hidden" value="0001">  
+        <input name="itemDescription1" type="hidden" value="Bull Burgers">  
+        <input name="itemAmount1" type="hidden" value="7.80">  
+        <input name="itemQuantity1" type="hidden" value="1">  
+        <input name="itemWeight1" type="hidden" value="1000">  
+		<input name="itemShippingCost1" type="hidden" value="8.00"> 
+       <input name="shippingAddressCountry" type="hidden" value="BRA">  		  
 
-                </div>
-				
-				
-            </div>
-			 <div class="row">
-                <div class="col-lg-12">
-                    <div class="iteam_links">
-                        <a class="boxed-btn5" href="Menu.html">Comprar </a>
+        <!-- Código de referência do pagamento no seu sistema (opcional) -->  
+        <input name="reference" type="hidden" value="Burguer">  
+   
+        <!-- submit do form (obrigatório) -->  
+        <input alt="Pague com PagSeguro" name="submit"  type="image"    width="140" height="40"
+src="img\Botao\comprar.png"/>  
+          
+</form>  
+</div>	
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-	
     <!-- best_burgers_area_end  -->
 
     <!-- features_room_startt -->
@@ -334,7 +554,7 @@
                         <img src="img/burgers/2.png" alt="">
                         <div class="room_heading d-flex justify-content-between align-items-center">
                             <div class="room_heading_inner">
-                                <span>$20.00</span>
+                               <span>$20.00</span>
                                 <h3>Combo viva salad</h3>
                                 <p>Três lanches e uma bebida: * lanche: pão de brioche, hambúrguer artesanal 100% carne bovina (100gr), cheddar, alface, tomate, cebola roxa, maionese e molho especial. * bebida: uma Coca cola de 1,5 litro e meio <br> .</p>
                                 <a href="Menu.html" class="boxed-btn3">Peça agora</a>
@@ -345,55 +565,10 @@
                 </div>
             </div>
     </div>
-    <!-- features_
-        <!-- features_room_end -->
-    <!-- about_area_start -->
-    <div class="about_area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="about_thumb2">
-                            <div class="img_1">
-                                <img src="img/about/1.png" alt="">
-                            </div>
-                            <div class="img_2">
-                                <img src="img/about/2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 offset-lg-1 col-md-6">
-                    <div class="about_info">
-                        <div class="section_title mb-20px">
-                            <span>Sobre nós</span>
-                            <h3>Best Burger <br>
-                                    na sua cidade</h3>
-                        </div>
-                        <p>Somos uma empresa orgulhosamente mineira de produtos alimentícios que atende às diferentes necessidades de cada região do Brasil</p>
-                        <div class="img_thumb">
-                            <img src="img/jessica-signature.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-        <!-- about_area_end -->
-    <!-- video_area_start -->
-    <div class="video_area video_bg overlay">
-        <div class="video_area_inner text-center">
-            <h3>Burger <br>
-                Bachelor</h3>
-            <span>How we make delicious Burger</span>
-            <div class="video_payer">
-                <a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y" class="video_btn popup-video">
-                    <i class="fa fa-play"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- video_area_end -->
+    <!-- features_room_end -->
 
-    <div class="testimonial_area ">
+    <!-- testimonial_area_start  -->
+     <div class="testimonial_area ">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -477,7 +652,7 @@
             </div>
         </div>
 </div>
-    <!-- testimonial_area_ned  -->
+<!-- testimonial_area_ned  -->
 
     <!-- instragram_area_start -->
     <div class="instragram_area">
@@ -528,7 +703,8 @@
     </div>
     <!-- instragram_area_end -->
 
-  <footer class="footer">
+    <!-- footer_start  -->
+ <footer class="footer">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
@@ -614,6 +790,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
             </div>
         </div>
     </footer>
+    <!-- footer_end  -->
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
